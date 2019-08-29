@@ -1,0 +1,19 @@
+{
+  "name": "la2tinr",
+  "version": "1.0.0",
+  "description": "CI with Travis",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --exit"
+  },
+  "author": "Thais Tiemi",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "request": "^2.88.0"
+  }
+}
